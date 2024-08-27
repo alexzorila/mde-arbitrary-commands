@@ -2,7 +2,7 @@
 Run arbitrary `PowerShell` and `Bash` commands once a MDE Live Response session is established. 
 * By default the `run` command executes a previously uploaded script or executable file.
 * Adds functionality where a script is uploaded that interprets and executes its arguments.
-* Commands including special characters can be executed as encoded base64.
+* Commands including special characters can be executed as encoded `base64`.
 
 ## Setup
 ### Live Response library
@@ -12,8 +12,8 @@ Upload the following files to MDE Live Response file library to add functionalit
   
 ### CyberChef as input encoder
 Commands can be `base64` encoded to address special character related errors.
-* PowerShell cyberchef recipe: [Link](https://gchq.github.io/CyberChef/#recipe=To_Base64('A-Za-z0-9%2B/%3D')Find_/_Replace(%7B'option':'Regex','string':'%5E'%7D,'run%20ps1%20%22-enc%20',true,false,true,false)Find_/_Replace(%7B'option':'Regex','string':'$'%7D,'%22',true,false,true,false))
-* Linux Shell cyberchef recipe: [Link](https://gchq.github.io/CyberChef/#recipe=To_Base64('A-Za-z0-9%2B/%3D')Find_/_Replace(%7B'option':'Regex','string':'%5E'%7D,'run%20sh%20%22-enc%20',true,false,true,false)Find_/_Replace(%7B'option':'Regex','string':'$'%7D,'%22',true,false,true,false))
+* PowerShell: [CyberChef recipe](https://gchq.github.io/CyberChef/#recipe=To_Base64('A-Za-z0-9%2B/%3D')Find_/_Replace(%7B'option':'Regex','string':'%5E'%7D,'run%20ps1%20%22-enc%20',true,false,true,false)Find_/_Replace(%7B'option':'Regex','string':'$'%7D,'%22',true,false,true,false))
+* Linux Shell: [CyberChef recipe](https://gchq.github.io/CyberChef/#recipe=To_Base64('A-Za-z0-9%2B/%3D')Find_/_Replace(%7B'option':'Regex','string':'%5E'%7D,'run%20sh%20%22-enc%20',true,false,true,false)Find_/_Replace(%7B'option':'Regex','string':'$'%7D,'%22',true,false,true,false))
 
 ## Usage
 ### Windows
