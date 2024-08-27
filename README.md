@@ -7,21 +7,22 @@ Run arbitrary `PowerShell` and `Bash` commands once a MDE Live Response session 
 ## Setup
 ### Live Response library
 
-| :warning: Manually review scripts before uploading to Library! |
-|----------------------------------------------------------------|
+> :warning: Manually review scripts before uploading to Library!
 
 Upload the following files to MDE Live Response file library to add functionality.
 * PowerShell interpreter: `ps1`
 * Linux Shell interpreter: `sh`
+
+
   
 ### CyberChef as input encoder
-
-| :warning: Consider using the offline version of CyberChef. |
-|------------------------------------------------------------|
 
 Commands can be `base64` encoded to address special character related errors.
 * PowerShell: [CyberChef recipe](https://gchq.github.io/CyberChef/#recipe=To_Base64('A-Za-z0-9%2B/%3D')Find_/_Replace(%7B'option':'Regex','string':'%5E'%7D,'run%20ps1%20%22-enc%20',true,false,true,false)Find_/_Replace(%7B'option':'Regex','string':'$'%7D,'%22',true,false,true,false))
 * Linux Shell: [CyberChef recipe](https://gchq.github.io/CyberChef/#recipe=To_Base64('A-Za-z0-9%2B/%3D')Find_/_Replace(%7B'option':'Regex','string':'%5E'%7D,'run%20sh%20%22-enc%20',true,false,true,false)Find_/_Replace(%7B'option':'Regex','string':'$'%7D,'%22',true,false,true,false))
+
+| :warning: Consider using the offline version of CyberChef. |
+|------------------------------------------------------------|
 
 ## Usage
 ### Windows
