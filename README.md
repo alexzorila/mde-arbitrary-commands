@@ -29,6 +29,6 @@ run ps1 "-enc d2hvYW1pCnB3ZApscw=="
 run sh whoami
 ```
 ```
-run sh 
+run sh "-enc cHdkCmxzCndob2FtaQ=="
 ```
 
