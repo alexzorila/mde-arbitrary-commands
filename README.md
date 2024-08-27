@@ -16,7 +16,7 @@ Upload the following files to MDE Live Response file library to add functionalit
 `[!] Consider using the offline version of CyberChef`
 
 Commands can be `base64` encoded to address special character related errors.
-* PowerShell: [CyberChef recipe](https://cyberchef.io/#recipe=Encode_text('UTF-16LE%20(1200)')To_Base64('A-Za-z0-9%2B/%3D')Find_/_Replace(%7B'option':'Regex','string':'%5E'%7D,'run%20ps1%20%22-enc%20',true,false,true,false)Find_/_Replace(%7B'option':'Regex','string':'$'%7D,'%22',true,false,true,false))
+* PowerShell: [CyberChef recipe](https://cyberchef.io/#recipe=Find_/_Replace(%7B'option':'Regex','string':'%5E'%7D,'$ProgressPreference%20%3D%20%5C'SilentlyContinue%5C'%5C%5Cn',true,false,true,false)Encode_text('UTF-16LE%20(1200)')To_Base64('A-Za-z0-9%2B/%3D')Find_/_Replace(%7B'option':'Regex','string':'%5E'%7D,'run%20ps1%20%22-enc%20',true,false,true,false)Find_/_Replace(%7B'option':'Regex','string':'$'%7D,'%22',true,false,true,false))
 * Linux Shell: [CyberChef recipe](https://gchq.github.io/CyberChef/#recipe=To_Base64('A-Za-z0-9%2B/%3D')Find_/_Replace(%7B'option':'Regex','string':'%5E'%7D,'run%20sh%20%22-enc%20',true,false,true,false)Find_/_Replace(%7B'option':'Regex','string':'$'%7D,'%22',true,false,true,false))
 
 ## Usage
