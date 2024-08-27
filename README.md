@@ -24,9 +24,14 @@ Base64 encoding can be used as a workaround. CyberChef recipies can be employed 
 run ps1 whoami
 ```
 ```
-run ps1 "-enc asdasd=="
+run ps1 "-enc d2hvYW1pCnB3ZApscw=="
 ```
 
 ### Linux / MacOS
 ```
+run sh whoami
 ```
+```
+run sh 
+```
+
