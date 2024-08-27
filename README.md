@@ -5,8 +5,8 @@ Run arbitrary `PowerShell` and `Bash` commands once a MDE Live Response session 
 * Commands including special characters can be executed as encoded base64.
 
 ## Setup
-#### Upload scrip to MDE library
-#### Configure CyberChef as input encoder
+#### Live Response library
+#### CyberChef as input encoder
 
 ## Usage
 ### Windows
