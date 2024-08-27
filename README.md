@@ -1,4 +1,7 @@
 # MDE Live Response: Run Arbitrary Commands
+Run arbitrary PowerShell and Bash commands once a MDE Live Response session is established. 
+By default the `run` command executes a previously uploaded script or executable file.
+This can be used to add functionality where a script is uploaded that interprets and executes its arguments.
 
 ## Setup
 #### Upload scrip to MDE library
