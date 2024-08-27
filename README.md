@@ -1,1 +1,1 @@
-# Microsoft Defender for Endpoint Live Response: Arbitrary Commands
+# MDE Live Response: Arbitrary Commands
