@@ -11,9 +11,7 @@ Upload the following files to MDE Live Response file library to add functionalit
 * Linux Shell interpreter: `sh`
   
 ### CyberChef as input encoder
-Base64 command encoding can be used for special characters. Addresses: `Error: Please avoid using the following characters as part of scripts' parameters: ; & | ! $ ( )`. 
-
-CyberChef recipies can be employed for ease of use.
+Commands can be base64 encoded to address special character related errors. CyberChef recipies can be employed for ease of use.
 * PowerShell recipe: [Link](https://gchq.github.io/CyberChef/#recipe=To_Base64('A-Za-z0-9%2B/%3D')Find_/_Replace(%7B'option':'Regex','string':'%5E'%7D,'run%20ps1%20%22-enc%20',true,false,true,false)Find_/_Replace(%7B'option':'Regex','string':'$'%7D,'%22',true,false,true,false))
 * Linux Shell recipe: [Link](https://gchq.github.io/CyberChef/#recipe=To_Base64('A-Za-z0-9%2B/%3D')Find_/_Replace(%7B'option':'Regex','string':'%5E'%7D,'run%20sh%20%22-enc%20',true,false,true,false)Find_/_Replace(%7B'option':'Regex','string':'$'%7D,'%22',true,false,true,false))
 
