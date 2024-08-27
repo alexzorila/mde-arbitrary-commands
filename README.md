@@ -1,1 +1,1 @@
-# MDE Live Response: Arbitrary Commands
+# MDE Live Response: Run Arbitrary Commands
