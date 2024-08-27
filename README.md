@@ -6,11 +6,14 @@ Run arbitrary `PowerShell` and `Bash` commands once a MDE Live Response session 
 
 ## Setup
 ### Live Response library
-Upload the following files to library to add functionality.
+Upload the following files to MDE Live Response file library to add functionality.
 * PowerShell interpreter: `ps1`
 * Linux Shell interpreter: `sh`
   
 ### CyberChef as input encoder
+The following message may be encountered when attempting to execute more complex commands.
+`Error: Please avoid using the following characters as part of scripts' parameters: ; & | ! $ ( )`. 
+Base64 encoding can be used as a workaround.
 
 ## Usage
 ### Windows
