@@ -22,11 +22,9 @@ Base64 encoding can be used as a workaround. CyberChef recipies can be employed 
 
 ## Usage
 ### Windows
-#### Execute one simple command
 ```
 run ps1 whoami
 ```
-#### Execute complex / multiple of commands
 ```
 run ps1 "-enc asdasd=="
 ```
