@@ -11,7 +11,7 @@ Upload the following files to MDE Live Response file library to add functionalit
 * Linux Shell interpreter: `sh`
   
 ### CyberChef as input encoder
-The following message may be encountered when attempting to execute more complex commands.
+Command execution may fail with: 
 `Error: Please avoid using the following characters as part of scripts' parameters: ; & | ! $ ( )`. 
 Base64 encoding can be used as a workaround.
 
