@@ -35,4 +35,6 @@ run sh whoami
 ```
 run sh "-enc cHdkCmxzCndob2FtaQ=="
 ```
-
+## References
+* MDE Docs: https://learn.microsoft.com/en-us/defender-endpoint/live-response-command-examples#run
+* CyberChef: https://cyberchef.io/
