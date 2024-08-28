@@ -8,7 +8,7 @@ Run arbitrary `PowerShell` and `Bash` commands once a MDE Live Response session 
 ### Live Response library
 `[!] Manually review scripts before uploading to Library`
 
-Upload the following files to MDE Live Response file library to add functionality.
+Upload the following files to MDE Live Response file library to add the functionality.
 * PowerShell interpreter: `ps1`
 * Linux Shell interpreter: `sh`
   
